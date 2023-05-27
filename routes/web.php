@@ -25,6 +25,8 @@ Route::get('/home', function () {
 
 Route::resource('blog', BlogController::class);
 
+// iseng tambah source code 
+
 // Route::middleware(['auth', 'verified'])->group(function () {
 //     Route::get('home', function () {
 //         return view('home');
